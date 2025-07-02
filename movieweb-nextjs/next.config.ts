@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
     output: "export",
-    assetPrefix: isProd ? "/ten-repo-cua-ban/" : "",
+    assetPrefix: isProd ? "/movieweb-nextjs/" : "",
     images: {
         unoptimized: true,
     },
